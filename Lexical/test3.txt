@@ -1,0 +1,7 @@
+ORIGIN IS (120, 120);	// (1) 原点移至(360, 120)
+SCALE IS (100, 100);	// (2) 图形放大100
+SCALE IS (100, 100/3);	// (3) 纵坐标缩小为三分之一
+ROT IS PI/2;		// (4) 逆时针旋转90度
+
+-- 绘制圆的轨迹
+FOR T FROM 0 TO 2*PI STEP PI/50 DRAW (cos(T), sin(T));

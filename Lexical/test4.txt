@@ -1,0 +1,4 @@
+ORIGIN IS (300,250);
+SCALE IS (10,10);
+ROT IS PI/2;		
+FOR T FROM 0 TO 2*PI STEP PI/100 DRAW (8*(2*cos(T)-cos(2*T)),8*(2*sin(T)-sin(2*T)));
